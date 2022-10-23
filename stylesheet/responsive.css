@@ -1,0 +1,311 @@
+@media screen and (min-width: 804px){
+    main .section-i .section-div-ii .ccarousel{
+        display: flex;
+        position: relative;
+        width: 100%;
+        overflow-x:hidden;
+        margin-top: 30px;
+    }
+    main .section-i .section-div-iii nav a{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    main .section-i .section-div-iii nav a .img{
+        width: 350px;
+        height: 200px;
+    }
+    main .section-i .section-div-iii nav a .img img{
+        height: 200px;
+    }
+    main .section-i .section-div-iii nav .nav-a-i{
+        /* border: 1px solid; */
+        box-shadow: 0px 0px 2px 0px inset #000;
+        width: 730px;
+    }
+    main .section-i .section-div-iii .h2_i{
+        font-size: 35px;
+    }
+    main .section-i .section-div-iii nav a .cont{
+        width: 320px;
+    }
+    main .section-i .section-div-iii nav a .cont .cont-i .p-i{
+        font-size: 20px;
+    }
+    main .section-i .section-div-ii .ccarousel .carousel-btn{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        top: 60px;
+    }
+    main .section-i .section-div-ii .ccarousel .carousel-btn button{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main .section-i .section-div-ii .ccarousel .carousel-btn button:first-child{
+        opacity: 0;
+    }
+    main .section-i .section-div-ii .ccarousel .carousel{
+        margin-right: 20px;
+        width: 700px !important;
+    }
+    main .section-i .section-div-ii  .c__t{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    main .section-i .section-div-ii .c__t p{
+        width: 400px;
+    }
+    main .section-i .section-div-ii .c__t .btn-group{
+        display: flex;
+        flex-direction: row !important;
+    }
+    main .section-i .section-div-ii .c__t .btn-group button{
+        padding: 10px !important;
+        border: none;
+    }
+    main .section-i .section-div-ii .c__t .btn-group .dis{
+        margin-left: 10px;
+    }
+    header .c_nav nav .nav___a{
+        background-color: #000;
+        position: absolute;
+        top: 120px;
+        display: none;
+        visibility: hidden;
+    }
+    header .c_nav nav .nav___a a{
+        color: #fff !important;
+    }
+    header .c_nav nav .nav_a{
+        position: relative;
+    }
+    header .c_nav nav .nav_a_i:hover .a___i{
+        display: flex !important;
+        visibility: visible;
+    }
+    header .h-iii .btn-relative-ii .btn-ab button:hover,
+    header .h-iii .btn-relative-i .btn-ab button:hover{
+        background-color: #000;
+        transition: background-color linear .3s;
+        color: #fff;
+    }
+    header .h-iii .btn-relative-ii .btn-ab{
+        left: -225px;
+    }
+    header .h-iii .btn-relative-ii .btn-ab button,
+    header .h-iii .btn-relative-i .btn-ab button{
+        border: none;
+        border: 1px solid #000;
+        background-color: transparent;
+        color: #000;
+        width: 100%;
+        font-size: 15px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    header .h-iii .btn-relative-ii .btn-ab,
+    header .h-iii .btn-relative-i .btn-ab{
+        position:absolute;
+        background-color: #fff;
+        width: 300px;
+        padding: 10px;
+        top: 60px;
+        box-shadow: 0px 0px 2px 0px #000;
+        visibility: hidden;
+    }   
+    header .h-iii .btn-relative-ii{
+        display: block;
+    }
+    header .h-iii .btn-relative-ii button{
+        height: 50px;
+    }
+    header .h-i,
+    header .h-iii .fa-search{
+        display: none;
+    }
+    header .h-iii .m{
+        width: 40px;
+        height: 40px;
+        background-color: #000;
+        position: relative;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 100px;
+        font-weight: bold;
+        font-size: 18px;
+        margin-left: 10px;
+        cursor: default;
+    }
+    header .h-iii .m::after{
+        position: absolute;
+        content: "";
+        border-radius: 100px;
+        width: 12px;
+        height: 12px;
+        background-color: #800080;
+        top: 0;
+        right: 0;
+    }
+    header .nav .fa-times{
+        right: 450px !important;
+        background-color: gold !important;
+    }
+    header .h-ii .btn-group,
+    header .h-ii .ins,
+    header .h-iii .btn-relative button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }    
+    header .h-ii .ins label input{
+        width: 320px !important;
+    }
+    header .c_nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+    }
+    header .c_nav nav{
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    header .c_nav nav a{
+        text-decoration: none;
+        padding: 12px 18px;
+        display: block;
+        color: #000 !important;
+        cursor: pointer;
+    }
+    header .c_nav nav a:hover{
+        color: #800080 !important;
+    }
+    .d_none{
+        display: none !important;
+    }
+}
+@media screen and (min-width: 812px){
+    .nav_a_v{
+        display: block !important;
+    }
+}
+@media screen and (min-width: 887px){
+    .nav_a_vi{
+        display: block !important;
+    }
+}
+@media screen and (min-width: 982px){
+    .nav_a_vii{
+        display: block !important;
+    }
+}
+@media screen and (min-width: 1112px){
+    .nav_a_viii{
+        display: block !important;
+    }
+}
+@media screen and (min-width: 800px){
+}
+@media screen and (min-width: 830px){
+    header .h-iii .btn-relative-i{
+        visibility: hidden;
+    }
+    header #love,
+    header #notif{
+        display: flex;
+        align-items: center;
+    }
+    header .nav .fa-times{
+        right: 450px !important;
+    }
+    header .h-ii .ins label input{
+        width: 230px;
+    }
+    header .h-ii .btn-group,
+    header .h-ii .ins,
+    header .h-iii .btn-relative button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 920px){
+    header .h-ii .ins label input{
+        width: 200px;
+    }
+    header .h-iii .btn-relative-i{
+        display: none;
+        margin-right: 20px;
+    }
+    header .h-iii .btn-relative-i,
+    header .h-iii .btn-relative-ii{
+        position: relative;
+    }
+    header .h-iii .btn-relative-ii{
+        display: block;
+    }
+    header .h-iii .btn-relative-ii button,
+    header .h-iii .btn-relative-i button{
+        height: 50px
+    }
+    header .h-iii .btn-relative-ii .btn-ab,
+    header .h-iii .btn-relative-i .btn-ab{
+        position:absolute;
+        background-color: #fff;
+        width: 300px;
+        padding: 10px;
+        top: 60px;
+        box-shadow: 0px 0px 2px 0px #000;
+        visibility: hidden;
+    }   
+    header .h-iii .btn-relative-ii .btn-ab{
+        left: -225px;
+    }
+    header .h-iii .btn-relative-ii .btn-ab button,
+    header .h-iii .btn-relative-i .btn-ab button{
+        border: none;
+        border: 1px solid #000;
+        background-color: transparent;
+        color: #000;
+        width: 100%;
+        font-size: 15px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    header .h-iii .btn-relative-ii .btn-ab button:hover,
+    header .h-iii .btn-relative-i .btn-ab button:hover{
+        background-color: #000;
+        transition: background-color linear .3s;
+        color: #fff;
+    }
+    header .h-ii .ins label input{
+        width: 320px;
+    }
+}
+@media screen and (min-width: 925px){
+    header .h-iii .btn-relative-i,
+    header .h-iii .btn-relative-ii{
+        visibility: visible;
+        display: block;
+    }
+    header .h-ii .ins label input{
+        width: 230px;
+    }
+    header .h-iii .btn-relative-i .btn-ab{
+        left: -190px;
+    }
+}
